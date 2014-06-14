@@ -1,0 +1,30 @@
+# Install native apps
+# Usage: `brew bundle Caskfile`
+
+install caskroom/cask/brew-cask
+tap caskroom/versions
+
+cask install alfred 2> /dev/null
+cask install airfoil 2> /dev/null
+cask install atom 2> /dev/null
+cask install colloquy 2> /dev/null
+cask install dropbox 2> /dev/null
+cask install flux 2> /dev/null
+cask install firefox 2> /dev/null
+cask install google-chrome 2> /dev/null
+cask install google-chrome-canary 2> /dev/null
+cask install imagealpha 2> /dev/null
+cask install imageoptim 2> /dev/null
+cask install iterm2 2> /dev/null
+cask install macvim 2> /dev/null
+cask install opera 2> /dev/null
+cask install opera-developer 2> /dev/null
+cask install opera-next 2> /dev/null
+cask install sequel-pro 2> /dev/null
+cask install sublime-text 2> /dev/null
+cask install the-unarchiver 2> /dev/null
+cask install torbrowser 2> /dev/null
+cask install totalspaces 2> /dev/null
+cask install vagrant 2> /dev/null
+cask install virtualbox 2> /dev/null
+cask install vlc 2> /dev/null
