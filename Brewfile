@@ -45,5 +45,9 @@ install phantomjs
 install mariadb
 install dnsmasq
 
+# I need fun in my life too...
+install imagemagick 
+install imagesnap
+
 # Remove outdated versions from the cellar
 cleanup
