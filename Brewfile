@@ -44,6 +44,8 @@ install casperjs
 install phantomjs
 install mariadb
 install dnsmasq
+install go
+install hg
 
 # I need fun in my life too...
 install imagemagick 
