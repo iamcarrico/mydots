@@ -46,6 +46,7 @@ install mariadb
 install dnsmasq
 install go
 install hg
+install zsh
 
 # I need fun in my life too...
 install imagemagick 
