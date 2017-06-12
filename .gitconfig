@@ -11,6 +11,7 @@
   co = checkout
   s = status
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  dmb = !git branch --no-color --merged origin/master | egrep -v "(^\*|master|dev)" | xargs git branch -d
 
 [core]
   editor = vim
